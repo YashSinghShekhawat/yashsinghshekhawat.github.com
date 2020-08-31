@@ -1,45 +1,47 @@
 .car {
-	width: 600px;
+  width: 600px;
+  position: relative;
 }
-.wheel-container { 
-	display: flex; 
-	justify-content: space-between; 
-	position: absolute; 
-	left: 440px; 
-	margin-top: 200px; 
+.wheel-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 440px;
+  margin-top: 200px;
 }
-.wheel { 
-	border: 5px solid #000000; 
-	height: 170px; 
-	width: 170px; 
-	background-color: #000000; 
-    border-radius: 50%; 
-	justify-content: space-between; 
-	margin-left: 250px; 
+.wheel {
+  border: 5px solid #000000;
+  height: 170px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 50%;
+  justify-content: space-between;
+  margin-left: 250px;
 }
-.wheeles { 
-	border: 5px solid #000000; 
-	height: 170px; width: 170px; 
-	background-color: #000000; 
-	border-radius: 50%; 
-	justify-content: space-between; 
+.wheeles {
+  border: 5px solid #000000;
+  height: 170px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 50%;
+  justify-content: space-between;
 }
-.wheel-con { 
-	border: 5px solid #847e82; 
-	height: 100px; 
-	margin: 30px; 
-	width: 100px; 
-	background-color: #847e82; 
-	border-radius: 50%; 
+.wheel-con {
+  border: 5px solid #847e82;
+  height: 100px;
+  margin: 30px;
+  width: 100px;
+  background-color: #847e82;
+  border-radius: 50%;
 }
-.rock { 
+.rock {
   border: 30px solid teal;
   height: 200px;
   width: 800px;
   background-color: teal;
   border-radius: 35%;
   margin-left: 300px;
-  position: absolute; 
+  position: absolute;
   margin-top: 50px;
 }
 .flight {
@@ -50,7 +52,7 @@
   background-color: orange;
   border-radius: 10px;
   left: 290px;
-  top: 315px;
+  top: 152px;
 }
 .blight {
   border: 1px solid black;
@@ -59,8 +61,8 @@
   position: absolute;
   background-color: black;
   border-radius: 10px;
-  right: 415px;
-  top: 315px;
+  right: -575px;
+  top: 152px;
 }
 .top {
   border: 4px solid grey;
@@ -68,9 +70,9 @@
   width: 250px;
   position: absolute;
   border-radius: 10%;
-  left: 590px;
+  left: 600px;
   z-index: 1;
-  top: 20px;
+  top: -144px;
 }
 .gate {
   border: 1px solid #ffffff;
@@ -86,12 +88,12 @@
   border: 30px solid teal;
   height: 200px;
   width: 450px;
-  background-color:teal;
+  background-color: teal;
   border-radius: 35%;
   margin-left: 300px;
   position: absolute;
-  top: 20px;
-  right: 625px;
+  top: -150px;
+  right: -381px;
 }
 .window {
   border: 5px solid #ffffff;
