@@ -96,7 +96,7 @@ nav a:hover {
   padding-left: 30px;
 }
 .text {
-  background: #2e2f32;
+  background: black;
   color: white;
   height: 50px;
   width: 352px;
@@ -109,7 +109,7 @@ nav a:hover {
   padding-left: 30px;
 }
 .text span:hover {
-  color: orange;
+  background-color: red;
 }
 .text span {
   color: rgb(68, 67, 67);
