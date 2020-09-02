@@ -194,7 +194,7 @@ body {
   justify-content: center;
   padding-right: 55px;
 }
-.circles {
+.check {
   display: flex;
   padding-left: 50px;
   font-size: 20px;
@@ -232,7 +232,7 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .title img {
     width: 210px;
   }
