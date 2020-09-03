@@ -91,7 +91,7 @@ nav a:hover {
   width: 380px;
   height: 300px;
 }
-.box {
+/* .box {
   width: 380px;
   padding-left: 30px;
 }
@@ -109,7 +109,7 @@ nav a:hover {
   padding-left: 30px;
 }
 .text span:hover {
-  background-color: red;
+  background-color: #ffffff;
 }
 .text span {
   color: rgb(68, 67, 67);
@@ -118,6 +118,49 @@ nav a:hover {
 
 .text:hover .span {
   color: rgb(231, 94, 40);
+}
+.last {
+  background-color: #24292e;
+  justify-content: center;
+  align-items: center;
+} */
+.box {
+  width: 380px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+/* .text {
+  background: #000000;
+  color: white;
+  height: 50px;
+  width: 352px;
+  margin-left: 1px;
+  margin-top: -5px;
+  text-align: center;
+  padding-top: 19px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  padding-left: 30px;
+} */
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -5px;
+}
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.code {
+  color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+.boxheading:hover .code {
+  color: orangered;
 }
 .last {
   background-color: #24292e;
