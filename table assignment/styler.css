@@ -42,7 +42,8 @@ header {
   border: 1px solid grey;
   border-radius: 15px 15px 0 0;
   padding-top: 330px;
-  width: 970px;
+  height: 100px;
+  width: 912px;
   margin: auto;
   margin-top: 50px;
 }
@@ -57,7 +58,7 @@ header {
   width: 200px;
   border: 1px solid grey;
   border-radius: 20px;
-  margin-left: 35px;
+  margin-left: 10px;
   align-items: center;
 }
 .circle {
@@ -101,4 +102,47 @@ header {
   font-weight: 500px;
   padding-top: 5px;
   text-decoration: none;
+}
+.table-in {
+  margin-top: -270px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.table th {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid cornflowerblue;
+  padding: 10px 53px 10px 28px;
+  text-align: center;
+}
+.table td {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  border-bottom: 1px dotted cornflowerblue;
+  border-right: 1px solid cornflowerblue;
+  padding: 10px 53px 10px 28px;
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.yellow {
+  color: #f1e248;
+}
+.last {
+  display: flex;
+  margin-top: 63px;
+  padding-left: 456px;
+  padding-right: 17px;
+  justify-content: space-between;
+}
+.box {
+  height: 30px;
+  width: 127px;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightgray;
 }
