@@ -306,7 +306,7 @@ body {
   width: 84px;
   background-color: #cf063c;
   left: 65px;
-  top: 10px;
+  top: 8px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-bottom-left-radius: 4px;
@@ -390,7 +390,7 @@ body {
   top: 177px;
   left: 93px;
 }
-.foot {
+.foot1 {
   height: 38px;
   width: 87px;
   position: absolute;
