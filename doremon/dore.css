@@ -27,17 +27,17 @@ body {
   display: flex;
 }
 .eye1 {
-  height: 55px;
-  width: 50px;
+  height: 70px;
+  width: 65px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid black;
-  margin-left: -105px;
+  margin-left: -120px;
   margin-top: -250px;
 }
 .eye2 {
-  height: 55px;
-  width: 50px;
+  height: 70px;
+  width: 65px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid black;
@@ -47,20 +47,20 @@ body {
   display: flex;
 }
 .dot1 {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 30px;
   border-radius: 50%;
   background-color: black;
-  margin-left: -95px;
-  margin-top: -230px;
+  margin-left: -102px;
+  margin-top: -225px;
 }
 .dot2 {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 30px;
   border-radius: 50%;
   background-color: black;
-  margin-left: 30px;
-  margin-top: -230px;
+  margin-left: 41px;
+  margin-top: -226px;
 }
 .eye-dot-in {
   display: flex;
@@ -71,31 +71,30 @@ body {
   width: 15px;
   border-radius: 50%;
   background-color: #ffffff;
-  margin-top: -224px;
-  margin-left: -91px;
+  margin-top: -217px;
+  margin-left: -95px;
 }
 .dot-in2 {
   height: 15px;
   width: 15px;
   border-radius: 50%;
   background-color: #ffffff;
-  margin-top: -224px;
-  margin-left: 42px;
+  margin-top: -217px;
+  margin-left: 57px;
 }
 .nose {
-  height: 27px;
-  width: 25px;
+  height: 32px;
+  width: 30px;
   border-radius: 50%;
   background-color: red;
-  margin-top: -206px;
-  margin-left: -65px;
+  margin-top: -11px;
+  margin-left: -67px;
 }
 .white {
   height: 13px;
   width: 15px;
   border-radius: 50%;
-  margin-top: -200px;
-  /* margin-left: 0px; */
+  margin-top: -192px;
   background-color: #ffffff;
 }
 .beard1 {
@@ -129,7 +128,7 @@ body {
   height: 1px;
   background-color: black;
   position: absolute;
-  top: 228px;
+  top: 239px;
   left: 448px;
   transform: rotate(90deg);
 }
@@ -160,12 +159,12 @@ body {
   transform: rotate(-707deg);
 }
 .mouth {
-  height: 50px;
+  height: 58px;
   width: 170px;
   border: 0.5px solid #000;
   position: absolute;
-  top: 294px;
-  left: 390px;
+  top: 281px;
+  left: 394px;
   border-bottom-left-radius: 71px;
   border-bottom-right-radius: 71px;
   background-color: #cf063c;
@@ -199,24 +198,24 @@ body {
   border-top-left-radius: 17px;
 }
 .tounge {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   border: 1px solid #f36e07;
   position: absolute;
   border-radius: 50px;
   background-color: #f36e07;
-  right: 60px;
-  top: 24px;
+  right: 58px;
+  top: 21px;
 }
 .tounge-second {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   border: 1px solid #f36e07;
   position: absolute;
   border-radius: 50px;
   background-color: #f36e07;
-  right: 80px;
-  top: 24px;
+  right: 78px;
+  top: 21px;
 }
 .left-hand {
   height: 30px;
@@ -224,7 +223,7 @@ body {
   background-color: skyblue;
   width: 80px;
   left: 328px;
-  top: 347px;
+  top: 333px;
   transform: rotate(45deg);
   border-bottom: 1px solid black;
   border-top: 1px solid black;
@@ -251,8 +250,8 @@ body {
   border-bottom: 1px solid black;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
-  left: 561px;
-  top: 388px;
+  left: 552px;
+  top: 377px;
 }
 .right-circle {
   height: 40px;
@@ -267,15 +266,17 @@ body {
 .stomach {
   position: absolute;
   background-color: skyblue;
-  height: 200px;
-  width: 208px;
-  left: 379px;
-  top: 361px;
+  height: 175px;
+  width: 200px;
+  left: 380px;
+  top: 349px;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 10px;
 }
 
 .in-stomach {
@@ -287,14 +288,22 @@ body {
   border-radius: 83px;
   border: 1px solid black;
 }
-
+.in-cricle {
+  position: absolute;
+  background-color: white;
+  height: 125px;
+  width: 137px;
+  top: 1px;
+  left: 29px;
+  border-radius: 50%;
+}
 .pocket {
   border: 1px solid black;
   width: 112px;
   height: 53px;
   position: absolute;
   background-color: white;
-  left: 45px;
+  left: 12px;
   top: 48px;
   border-bottom-right-radius: 52px;
   border-bottom-left-radius: 55px;
@@ -302,42 +311,14 @@ body {
 
 .band {
   position: absolute;
-  height: 10px;
-  width: 84px;
+  height: 12px;
+  width: 204px;
   background-color: #cf063c;
-  left: 65px;
-  top: 8px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  left: -1px;
+  top: 0px;
+  border-radius: 5px;
 }
-.band-one {
-  position: absolute;
-  height: 11px;
-  width: 81px;
-  background-color: #cf063c;
-  left: -72px;
-  top: -18px;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  transform: rotate(26deg);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 4px;
-}
-.band-two {
-  position: absolute;
-  height: 11px;
-  width: 76px;
-  background-color: #cf063c;
-  left: 72px;
-  top: -19px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  transform: rotate(152deg);
-  border-top-left-radius: 78px;
-}
+
 .bell {
   position: absolute;
   height: 30px;
@@ -380,15 +361,15 @@ body {
   border-left: 1px solid black;
 }
 .whitespace {
-  height: 25px;
-  width: 25px;
+  height: 32px;
+  width: 32px;
   background-color: #fff;
   border: 1px solid #fff;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   position: absolute;
-  top: 177px;
-  left: 93px;
+  top: 149px;
+  left: 86px;
 }
 .foot1 {
   height: 38px;
@@ -397,8 +378,7 @@ body {
   background-color: white;
   border: 1px solid black;
   border-radius: 48px;
-  top: 188px;
-  left: 6px;
+  top: 165px;
 }
 .foot-2 {
   height: 38px;
@@ -407,6 +387,6 @@ body {
   background-color: white;
   border: 1px solid black;
   border-radius: 48px;
-  top: 188px;
-  left: 119px;
+  top: 165px;
+  left: 115px;
 }
