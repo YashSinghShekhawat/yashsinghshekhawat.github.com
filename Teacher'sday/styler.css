@@ -27,11 +27,22 @@ body {
 .last {
   font-size: 80px;
   color: #000;
-  margin-top: -432px;
+  margin-top: -300px;
 }
 .last-text {
   font-size: 80px;
   color: #000;
   margin-top: 35px;
   padding-left: 243px;
+}
+@media (max-width: 300px) {
+  .image {
+    width: 100%;
+    margin: auto;
+  }
+  .about {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 100px;
+  }
 }
