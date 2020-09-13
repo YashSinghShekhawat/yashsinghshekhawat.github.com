@@ -1,92 +1,86 @@
 body {
+  margin: 0;  
+}
+.backgrounds {
+  background-color: #6F6FAA;
+  background-blend-mode: soft-light;
+  height: 1600px;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-color: rgba(58, 58, 158, 0.8);
-  background-blend-mode: soft-light;
-  background-attachment: fixed;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-position: fixed;
+  background-color:  #58588E;
+  background-blend-mode: soft-light
 }
-.form-container {
-  width: 700px;
-  background-color: rgb(41, 41, 73);
-  margin: auto;
-  padding: 30px;
+.bgimg form {
+  background:fixed;
+  font-size: 17px;
+  line-height:1,42857143;
+  color:#FFFFE1;
+ padding: 20px;
 }
-
-.desine {
-  display: flexbox;
-  color: azure;
-}
-.label {
-  color: azure;
-}
-.form-field {
-  color: azure;
-}
-.form-field input {
-  width: 350px;
-  height: 20px;
-}
-.sumbit {
-  background-color: #37af65;
-  padding: 12px;
-  color: white;
-  font-size: 15px;
+.spacing {
+  width: 100%;
+  height: 50px; 
   border-radius: 5px;
-  border: 1px solid #303841;
-  font-weight: bold;
-  width: 100%;
 }
-.input-radio,
-.input-checkbox {
-  display: inline-block;
-  margin-right: 0.625rem;
-  min-height: 1.25rem;
-  min-width: 1.25rem;
+.background {
+  background-color:#262644;
+  height: 1350px ;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.heading h1 {
-  margin-top: 50px;
-  margin-bottom: 0;
-  color: #ffffff;
+.background{
+  box-sizing: border-box;
+  display: block;
+  font-family: 'popins',sans-serif;
+}
+.formsettle {
+padding: 5px;
+height: 50px; 
+margin-left: 20px ;
+margin-right: 20px; 
+}
+.formsettle{
+   margin-left:6px;
+   margin-top:6px;
+   margin-right:6px;
+   margin-bottom:6px;
+}
+.input textarea{
+  min-height:120px;
+  width:100% ;
+  padding: 0.700px; 
+}
+.textarea{   
+width: 100%;
+height: 150px;
+padding: 10px;
+}
+.flex-hero div {
+  text-align: center;
+}
+.flex-hero h1 {
   font-size: 40px;
-}
-
-.heading span {
   color: #ffffff;
-  font-style: italic;
+  margin: 0px;
 }
-
-.heading {
-  margin-bottom: 40px;
-  text-align: center;
+.flex-hero .tagline {
+font-size: 19px;
+color: #ffffff
 }
-
-.form-container input[type="text"],
-.form-container input[type="number"],
-.form-container input[type="email"] {
-  height: 40px;
-  width: 100%;
-  border-radius: 10px;
-  padding: 5px;
-  font-size: 16px;
+.flex-hero{
+  padding-top: 50px;
 }
-.text {
-  text-align: center;
+.submit {
+  width: 100%;  
+  height: 50px;
+  background:#37AF65;
+  color: snow;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.input-textarea {
-  width: 100%;
-  height: 150px;
-  border-radius: 10px;
-}
-@media (max-width: 1250px) {
-  body {
-    width: 100%;
-  }
-  .form-container {
-    width: 100%;
-  }
-  .heading h1 {
-    font-size: 20px;
-  }
+.last{
+  font-size: 20px;
 }
