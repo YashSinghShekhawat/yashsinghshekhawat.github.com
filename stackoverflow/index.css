@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+}
+header {
+    height: 60px;
+    width: 100%;
+    border: 1px solid black; 
+}
+.top {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.top img {
+    height: 50px;
+}
+.image2 {
+    display: none;
+}
+.image1 img {
+  display: none;
+}
+.image {
+    background-color: #ffcf10;
+    background-image: url(https://cdn.sstatic.net/Img/home/illo-hero-full.svg?v=e2018a5f9272);
+    background-position: top center;
+    height: 500px;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    opacity: 0.7;
+    margin-left: 20px;
+    margin-top: -610px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 10%;
+  }
+  .next{
+    display: none;
+  }
+  .next a {
+    display: none;
+  }
+  .flex-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: -50px;
+    left: 370px;
+  }
+  .box {
+    margin-top: 11px;
+    margin-left: 700px;
+  }
+  .box input {
+    width: 585px;
+    height: 40px;
+    font-size: 19px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .login {
+    margin-top: -39px;
+    margin-left: 1300px;
+  }
+  .login input {
+    width: 80px;
+    height: 35px;
+    font-size: 19px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    opacity: 0.7;
+  }
+  .login input:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+  .Signup {
+    margin-top: -40px;
+    margin-left: 1400px;
+  }
+  .Signup input {
+    width: 80px;
+    height: 35px;
+    font-size: 19px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+  }
+  .Signup input:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+  .wrote h1 {
+    font-size: 60px;
+    margin-top: -370px;
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+  }
+  .boot {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+  }
+  .language {
+    height: 40px;
+    width: 144px;
+    margin-top: 20px;
+    margin-left: 630px;
+    background-color: white;
+    border: 1px solid orangered;
+    padding-top: 15px;
+    border-radius: 5px;
+  }
+  .language i {
+    font-size: 20px;
+    color: orangered;
+    padding-left: 10px;
+  }
+  .camp {
+    height: 40px;
+    width: 144px;
+    margin-top: -56px;
+    margin-left: 800px;
+    background-color: orangered;
+    opacity: 0.7 ;
+    padding-top: 15px;
+    border-radius: 5px;
+  }
+  .camp i {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .cool {
+    margin-top: 150px;
+    text-align: center;
+  }
+  .cool h1 {
+    font-size: 50px;
+  }
+  .line {
+    height: 10px;
+    width: 90px;
+    border-radius: 15px;
+    margin-left: 750px;
+    background-color: orangered;
+  }
+  .first {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+    margin-top: 20px;
+  }
+  .first span {
+    color: orangered;
+  }
+  .boxes {
+    height: 400px;
+    width: 330px;
+    margin-left: 200px;
+    margin-top: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .boxes img {
+    padding-left: 110px;
+    padding-top: 40px;
+  }
+  .boxes h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .level {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .level span {
+    color: orangered;
+  }
+  .browse {
+    height: 30px;
+    width: 130px;
+    background-color: brown;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-top: 15px;
+  }
+  .browse a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+      header {
+        height: 50px;
+        width: 100%;
+      }
+      .top img {
+          display: none;
+      }
+      .image {
+          display: none;
+      }
+      .image2 {
+            display: block;
+            height: 495px;
+            width: 100%;
+            background-color: yellow;
+      }
+      .image1 img {
+          display: block;
+          height: 50px;
+          width: 50px;
+      }
+      .flex-nav {
+        display: none;
+        margin-top: 10px;
+        margin-left: -397px;
+      }
+      .next a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        opacity: 0.7;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .next {
+        display: block;
+        text-decoration: none;
+        opacity: 0.7;
+        margin-left: 62px;
+        margin-top: -38px;
+      }
+      .box {
+        display: none;
+      }
+      .box input {
+        display: none;
+      }
+      .login {
+        margin-left: 268px;
+        margin-top: -33px;
+      }
+      .login input {
+        height: 30px;
+        width: 50px;
+        font-size: 15px;
+      }
+      .login input:hover {
+        background-color: black;
+        opacity: 0.5;
+      }
+      .Signup input {
+        height: 30px;
+        width: 50px;
+        font-size: 13px;
+      }
+      .Signup{
+        margin-left: 358px;
+        margin-top: -35px;
+      }
+      .Signup input:hover {
+        background-color: black;
+        opacity: 0.5;
+      }
+      .wrote {
+       text-align: center;
+      }
+      .wrote h1 {
+        font-size: 40px;
+      }
+      .boot {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+       }
+       .language {
+        margin-left: 130px;
+        border-radius: 5px;
+       }
+       .camp {
+        margin-left: 130px;
+        margin-top: 20px;
+        border-radius: 5px;
+      }
+      .cool {
+        text-align: center;
+        margin-top: 100px;
+      }
+      .cool h1 {
+        font-size: 30px;
+      }
+      .line {
+        height: 10px;
+        width: 60px;
+        margin-left: 180px;
+      }
+      .first {
+        font-size: 13px;
+      }
+      .boxes {
+        margin-top: 50px;
+        margin-left: 53px;
+      }
+  }
