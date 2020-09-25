@@ -483,7 +483,6 @@ position: absolute;
      top: 7px;
      right: 0px;
  }
-
  .book1 {
      height: 20px;
      width: 70px;
@@ -544,5 +543,37 @@ position: absolute;
      z-index: 4;
      box-shadow: -127px -109.5px 0 #f5fffa, -118px -107px 0 #f5fffa, -115.5px -102.5px 0 #f5fffa, -105.5px -109.5px 0 #f5fffa, -105px -109.5px 0 #f5fffa, -129px 166px 0 #F5FFfa, -107.5px 166px 0 #F5FFFA, -119px 161px 0 #F5FFFA;
    }
-   
+   .most {
+       height: 10px;
+       width: 100px;
+       border-radius: 5px;
+       background-color: black;
+       margin-top: 215px;
+       margin-left: 430px;
+   }
+   .lost {
+    height: 10px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: 550px;
+   }
+   .not {
+    height: 10px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: 600px;
+   }
+   .hard {
+    height: 10px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: 820px;
+   }
+
   
