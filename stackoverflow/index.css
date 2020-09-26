@@ -168,6 +168,9 @@ nav a {
   .first span {
     color: orangered;
   }
+  .box-main {
+    display: flex;
+  }
   .boxes {
     height: 400px;
     width: 330px;
@@ -191,6 +194,37 @@ nav a {
   }
   .level span {
     color: orangered;
+  }
+  .browse {
+    height: 30px;
+    width: 130px;
+    background-color: brown;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-top: 15px;
+  }
+  .browse a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .boxe1 {
+    height: 400px;
+    width: 330px;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .boxes img {
+    padding-left: 110px;
+    padding-top: 40px;
+  }
+  .boxes h5 {
+    font-size: 20px;
+    text-align: center;
   }
   .browse {
     height: 30px;
