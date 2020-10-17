@@ -5,8 +5,8 @@ body {
 .first {
   height: 781px;
   width: 100%;
-  background-color: #7f53ac;
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-color: #272727;
+  background-color: red;
 }
 .boxes {
   display: flex;
@@ -18,7 +18,7 @@ body {
 .boxes div {
   height: 100px;
   width: 100px;
-  background-color: #000;
+  background-color: #272727;
   border: 1px solid white;
   transition: 0.5s;
   color: wheat;
