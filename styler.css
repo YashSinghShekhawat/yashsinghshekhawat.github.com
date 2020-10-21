@@ -2,15 +2,22 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+  margin-left: 188px;
+  font-size: 20px;
+}
 .flex-container {
   background-color: #be3144;
   height: auto;
   padding: 5px;
   display: flex;
   justify-content: space-between;
-}
-.flex-container .icons .fa-close {
-  display: none;
+  position: fixed;
+  width: 100%;
 }
 .logo {
   padding: 16px;
@@ -28,6 +35,7 @@ nav a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -46,6 +54,9 @@ nav a:hover {
 }
 .icons {
   display: none;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 5px;
 }
 .flex-hero {
   background-color: #2e2f32;
@@ -84,63 +95,18 @@ nav a:hover {
 .gallary {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
-  justify-content: space-around;
 }
 .gallary img {
   width: 380px;
   height: 300px;
 }
-/* .box {
-  width: 380px;
-  padding-left: 30px;
-}
-.text {
-  background: black;
-  color: white;
-  height: 50px;
-  width: 352px;
-  margin-left: -1px;
-  margin-top: -5px;
-  text-align: center;
-  padding-top: 19px;
-  margin-bottom: 40px;
-  font-size: 25px;
-  padding-left: 30px;
-}
-.text span:hover {
-  background-color: #ffffff;
-}
-.text span {
-  color: rgb(68, 67, 67);
-  transition: color 0.5s ease-in-out;
-}
-.text:hover .span {
-  color: rgb(231, 94, 40);
-}
-.last {
-  background-color: #24292e;
-  justify-content: center;
-  align-items: center;
-} */
+
 .box {
   width: 380px;
-  margin-bottom: 20px;
-  padding-left: 30px;
+  padding-bottom: 63px;
+  margin-left: 113px;
 }
-/* .text {
-  background: #000000;
-  color: white;
-  height: 50px;
-  width: 352px;
-  margin-left: 1px;
-  margin-top: -5px;
-  text-align: center;
-  padding-top: 19px;
-  margin-bottom: 40px;
-  font-size: 25px;
-  padding-left: 30px;
-} */
+
 .boxheading {
   background-color: #000000;
   color: #ffffff;
@@ -216,21 +182,29 @@ nav a:hover {
   color: #d1d2d4;
 }
 @media (max-width: 1000px) {
+  .flex-container {
+    background-color: #be3144;
+    height: 53px;
+  }
+  nav a:hover {
+    background: none;
+  }
   .flex-hero {
     width: auto;
     font-size: 30px;
   }
-  .gallary {
-    justify-content: center;
-    padding-left: 3%;
+
+  .flex-hero h1 {
+    font-size: 40px;
   }
+
   .text {
     width: 38 0px;
     object-fit: cover;
     margin-left: 0px;
   }
   .gallary img {
-    width: 300px;
+    width: 306px;
     object-fit: cover;
     padding-left: 0px;
   }
@@ -250,5 +224,20 @@ nav a:hover {
   }
   .socialmedia {
     justify-content: center;
+  }
+  .box {
+    margin-left: 28px;
+  }
+  .boxheading {
+    width: 267px;
+  }
+  .flex-container nav a {
+    display: flex;
+    margin-left: -148px;
+  }
+  .logo span {
+    display: none
+    
+    ;
   }
 }

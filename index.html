@@ -12,14 +12,14 @@
       function filter() {
         var flexnav = document.querySelector(".flex-nav");
         var icons = document.querySelector(".icons i");
-        flexnav.style.display = "block";
-        icons.style.display = "none";
+        
+        icons.style.transition = "0.3s";
         if (flexnav.style.display == "block") {
-          flexnav.style.display = "block";
+          flexnav.style.display = "none";
           icons.classList.remove("fa-close");
           icons.classList.add("fa-bars");
         } else {
-          flexnav.style.display = "none";
+          flexnav.style.display = "block";
           icons.classList.remove("fa-bars");
           icons.classList.add("fa-close");
         }
@@ -29,19 +29,17 @@
   <body>
     <header>
       <div class="flex-container">
-        <div class="logo">Yash Shekhawat</div>
+        <div class="logo">Yash <span>Shekhawat</span></div>
         <div>
+            <nav class="icons">
+                <i class="fa fa-bars" onclick="filter()"></i>
+              </nav>
           <nav class="flex-nav">
             <a href="#">About</a>
-            <a href="#p4">Work</a>
-            <a href="#l4">Contact</a>
+            <a href="#photos">Work</a>
+            <a href="#last">Contact</a>
           </nav>
-          <nav class="icons">
-            <i class="fa fa-bars" onclick="filter()"></i>
-          </nav>
-          <nav class="icons">
-            <i class="fa fa-close"></i>
-          </nav>
+
         </div>
       </div>
     </header>
@@ -54,13 +52,13 @@
       </div>
     </section>
     <section>
-      <div class="photos">
+      <div class="photos" id="photos">
         <div>
           <h4>These are some of my projects</h4>
           <br />
           <div class="gallary">
             <div class="box">
-              <a href="https://yashsinghshekhawat.github.io/DrOnApp/">
+              <a href="https://yashsinghshekhawat.github.io/DrOnApp/"></a>
               <img src="images/DrOnApp.png" />
                  
               <div class="boxheading">
@@ -68,8 +66,9 @@
                 <a href="https://yashsinghshekhawat.github.io/DrOnApp/" target="_blank">Clone of DrOnApp</a> 
                 <span class="code"> /> </span>
               </div>
+            </div>
               <div class="box">
-                  <a href="yashsinghshekhawat.github.io/doremon/dore.html">
+                  <a href="yashsinghshekhawat.github.io/doremon/dore.html"></a>
                   <img src="images/Doremon.png" />
                      
                   <div class="boxheading">
@@ -77,8 +76,9 @@
                     <a href="yashsinghshekhawat.github.io/doremon/dore.html" target="_blank">My Doremon</a> 
                     <span class="code"> /> </span>
                   </div>
+                </div>
             <div class="box">
-              <a href="https://yashsinghshekhawat.github.io/zomato%20assignment/zomato.html">
+              <a href="https://yashsinghshekhawat.github.io/zomato%20assignment/zomato.html"></a>
               <img src="images/yash.png" />
                  
               <div class="boxheading">
@@ -86,10 +86,10 @@
                 <a href="zomato assignment/zomato.html" target="_blank">Clone of zomato</a> 
                 <span class="code"> /> </span>
               </div>
-              
             </div>
+
           <div class="box">
-            <a href="yashsinghshekhawat.github.io/car/car.html">
+            <a href="yashsinghshekhawat.github.io/car/car.html"></a>
             <img src="images/car.png" />
                
             <div class="boxheading">
@@ -97,10 +97,10 @@
               <a href="car/car.html" target="_blank">Car with css</a> 
               <span class="code"> /> </span>
             </div>
-            
           </div>
+            
           <div class="box">
-            <a href="https://yashsinghshekhawat.github.io/flower.html">
+            <a href="https://yashsinghshekhawat.github.io/flower.html"></a>
             <img src="images/flower.png" />
                
             <div class="boxheading">
@@ -111,7 +111,7 @@
             
           </div>
             <div class="box">
-              <a href="yashsinghshekhawat.github.io/cricket/cricket.html">
+              <a href="yashsinghshekhawat.github.io/cricket/cricket.html"></a>
               <img src="images/cricket.png" />
                  
               <div class="boxheading">
@@ -127,7 +127,7 @@
               <div class="text"><span></span>my Form<span></span></div>
             </div> -->
             <div class="box">
-              <a href="https://yashsinghshekhawat.github.io/form.html">
+              <a href="https://yashsinghshekhawat.github.io/form.html"></a>
               <img src="images/form.png" />
                  
               <div class="boxheading">
@@ -138,7 +138,7 @@
               
             </div>
             <div class="box">
-              <a href="https://yashsinghshekhawat.github.io/table assignment/">
+              <a href="https://yashsinghshekhawat.github.io/table assignment/"></a>
               <img src="images/table.png" />
                  
               <div class="boxheading">
@@ -154,7 +154,7 @@
       </div>
     </section>
     <section>
-      <div class="last">
+      <div class="last" id="last">
         <div class="written">
           <br />
           Let's work together...
