@@ -1,73 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Calculator</title>
-	<link rel="stylesheet" href="styler.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styler.css">
+  <title>Calculator</title>
 </head>
 <body>
-     <div class="calculator">
-		 <div class="mid"></div>
-		 <div class="half">
-			 <div class="first">
-				 <a href="#">+</a>
-			 </div>
-			 <div class="second">
-				<a href="#">-</a>
-			</div>
-			<div class="third">
-				<a href="#">*</a>
-			</div>
-			<div class="fourth">
-			    <a href="#">/</a>
-		   </div>
-		 </div>
-		 <div class="half2">
-			<div class="fifth">
-				<a href="#">7</a>
-			</div>
-			<div class="sixth">
-			   <a href="#">8</a>
-		   </div>
-		   <div class="seventh">
-			   <a href="#">9</a>
-		   </div>
-		</div>
-		<div class="half3">
-			<div class="eight">
-				<a href="#">4</a>
-			</div>
-			<div class="ninth">
-			   <a href="#">5</a>
-		   </div>
-		   <div class="tenth">
-			   <a href="#">6</a>
-		   </div>
-		</div>
-		<div class="half4">
-			<div class="eleven">
-				<a href="#">1</a>
-			</div>
-			<div class="twelve">
-			   <a href="#">2</a>
-		   </div>
-		   <div class="the">
-			   <a href="#">3</a>
-		   </div>
-		</div>
-		<div class="half5">
-			<div class="road">
-				<a href="#">0</a>
-			</div>
-			<div class="road1">
-			   <a href="#">.</a>
-		   </div>
-		   <div class="road2">
-			   <a href="#">C</a>
-		   </div>
-		   <div class="equal">
-			   <a href="#">=</a>
-		   </div>
-		</div>
-	 </div>
+
+  <div class="full">
+  <div class="calculator">
+
+    <input type="text" class="display" disabled>
+
+    <div class="keys">
+
+      <div class="row">
+        <button value="+" class="operator">+</button>
+        <button value="-" class="operator">-</button>
+        <button value="*" class="operator">*</button>
+        <button value="/" class="operator">/</button>
+      </div>
+      <div class="row">
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+      </div>
+      <div class="row">
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+      </div>
+      <div class="row">
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+      </div>
+          <div class="row">
+        <button value="0">0</button>
+        <button value="." class="operator">.</button>
+        <button value="C" class="operator">C</button>
+        <button value="=" class="operator1">=</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  
+  <script src="main.js"></script>
 </body>
 </html>
