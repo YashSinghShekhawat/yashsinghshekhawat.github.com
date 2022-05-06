@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+.start{
+    background-color: #222b34;
+    width: 100%;
+    height: 799px;
+}
+.start-1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 162px;
+    display: flex;
+}
+.start-2{
+    word-spacing: 38px;
+    margin-left: 271px;
+}
+.start-2 a{
+    color: white;
+    text-decoration: none;
+font-size: 30px;
+}
+.part{
+    position: absolute;
+    top: 165px;
+    left: 230px;
+    display: flex;
+    
+}
+.part img {
+    height: 35.96rem;
+}
+.part-2{
+    color: white;
+    height: 31px;
+    width: 110px;
+    background-color: green;
+    text-align: center;
+    margin-left: -52px;
+    padding-top: 12px;
+    margin-top: 90px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Dosis', sans-serif;
+}
+.part-3{
+    font-size: 40px;
+    color: white;
+
+    font-family: 'Quicksand', sans-serif;
+margin-top: 145px;
+     margin-left: -107px;
+}
+.part-4{
+    font-size: 27px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 200px;
+    margin-left: -365px;
+}
+.profile_info {
+    margin-top: 245px;
+    color: white;
+    margin-left: -17.29rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.profile_info span {
+    font-weight: 400;
+    display: block;
+    line-height: 30px;
+}
+.profile_info span i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+.social_profile {
+    margin-top: 24.1rem;
+    margin-left: -30rem;
+}
+.social_profile ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.social_profile ul li {
+    display: inline-block;
+}
+.social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #eee;
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+}
