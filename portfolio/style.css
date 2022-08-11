@@ -4,94 +4,119 @@ body{
 .start{
     background-color: #222b34;
     width: 100%;
-    height: 799px;
+    height: 100%;
+    justify-content: center;
 }
-.start-1{
-    font-family: 'Dancing Script', cursive;
+#header{
+      font-family: 'Dancing Script', cursive;
     font-size: 35px;
     color: white;
-    position: absolute;
-    top: 20px;
-    left: 162px;
     display: flex;
+   padding-top: 0.7%;
+    justify-content: space-around;
+    height: 10vh;
+
 }
-.start-2{
+#navigation{
     word-spacing: 38px;
     margin-left: 271px;
 }
-.start-2 a{
+.nav_link{
     color: white;
     text-decoration: none;
 font-size: 30px;
 }
-.part{
-    position: absolute;
-    top: 165px;
-    left: 230px;
-    display: flex;
-    
+ .nav_link:hover {
+    color: rosybrown;
+
 }
-.part img {
-    height: 35.96rem;
-}
-.part-2{
+#about{
+        font-family: 'Dancing Script', cursive;
+
     color: white;
+    display: flex;
+
+    justify-content: space-around;
+    height: 90vh;
+  /*  max-height: 80%;
+    max-width: 80%;*/
+
+}
+.about_section{
+    height: 70%;
+    width: 90%;
+    padding-top: 5%;
+    display: flex;
+    /* padding-top: 48px; */
+    /* margin-top: 7.5%; */
+    align-items: center;
+    justify-content: center;
+    }
+#about .about_section img {
+    height: 80%;
+}
+.about_detail{
+    padding-left: 10%;
+}
+.about_greeting{
+    color: whitesmoke;
     height: 31px;
     width: 110px;
     background-color: green;
     text-align: center;
-    margin-left: -52px;
+   /* margin-left: -52px;
     padding-top: 12px;
-    margin-top: 90px;
+    margin-top: 90px;*/
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     font-family: 'Dancing Script', cursive;
 font-family: 'Dosis', sans-serif;
+padding-top: 9px;
 }
-.part-3{
+.about_name{
     font-size: 40px;
     color: white;
 
     font-family: 'Quicksand', sans-serif;
-margin-top: 145px;
-     margin-left: -107px;
+/*margin-top: 145px;
+     margin-left: -107px;*/
 }
-.part-4{
+.about_intro{
     font-size: 27px;
     color: white;
     font-family: 'Quicksand', sans-serif;
-    margin-top: 200px;
-    margin-left: -365px;
+   /* margin-top: 200px;
+    margin-left: -365px;*/
 }
-.profile_info {
-    margin-top: 245px;
+.about_profile_info {
+   /* margin-top: 245px;*/
     color: white;
-    margin-left: -17.29rem;
+   /* margin-left: -17.29rem*/;
     font-family: 'Quicksand', sans-serif;
 }
-.profile_info span {
+.about_profile_info span {
     font-weight: 400;
     display: block;
     line-height: 30px;
 }
-.profile_info span i {
+.about_profile_info span i {
     font-size: 14px;
     margin-right: 10px;
 }
-.social_profile {
+.about_social_profile {
     margin-top: 24.1rem;
     margin-left: -30rem;
 }
-.social_profile ul {
+.about_social_profile ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
 }
-.social_profile ul li {
+.about_social_profile ul li {
     display: inline-block;
 }
-.social_profile ul li a {
+.about_social_profile ul li a {
     text-align: center;
     border: 0px;
     text-transform: uppercase;
@@ -108,3 +133,16 @@ margin-top: 145px;
     display: block;
     border: 1px solid rgba(255,255,255,0.2);
 }
+.contact_info {
+    height: 10vh;
+    width: 100%;
+
+}
+.contact_info i {
+    font-size: 40px;
+    
+      text-shadow: 0px 0px 1px red;
+  color: white; 
+
+}
+
